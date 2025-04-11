@@ -1,0 +1,12 @@
+.lista-tareas {
+  margin-top: 20px;
+}
+
+.lista-tareas-vacia {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  color: #6c757d;
+  font-size: 18px;
+} 

@@ -1,0 +1,44 @@
+.appContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--spacing-xl);
+  font-family: 'Arial', sans-serif;
+}
+
+.titulo {
+  text-align: center;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-xl);
+  font-size: 2rem;
+}
+
+.mensajeExito {
+  background-color: #d4edda;
+  color: var(--color-success);
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius);
+  margin-bottom: var(--spacing-lg);
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .appContainer {
+    padding: var(--spacing-md);
+  }
+  
+  .titulo {
+    font-size: 1.5rem;
+  }
+} 
